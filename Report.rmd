@@ -125,7 +125,7 @@ confusionMatrix(pred3,testing$diagnosis)
 
 ## Model Ensemble
 
-The predictors will be combined and another model will be fit using neural net.
+The predictors will be combined and another model will be fit using the generalized linear model.
 
 ```{r Ensemble, echo = T, include=FALSE}
 set.seed(436)
